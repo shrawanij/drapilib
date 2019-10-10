@@ -1,0 +1,22 @@
+{
+    "name": "shrawanij/drapilib",
+    "description": "This is the Library which uses Digital River API's",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Shrawani Jagtap",
+            "email": "sjagtap@digitalriver.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "DRAPILIB\\": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    }
+}
